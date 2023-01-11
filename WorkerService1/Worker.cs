@@ -2,7 +2,7 @@ using Microsoft.AspNetCore.SignalR.Client;
 using StockQuoteChat.Bot.Models;
 using StockQuoteChat.Bot.Services.Interfaces;
 
-namespace WorkerService1
+namespace StockQuoteChat.Bot
 {
     public class Worker : BackgroundService
     {

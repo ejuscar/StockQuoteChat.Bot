@@ -1,6 +1,6 @@
 using StockQuoteChat.Bot.Services;
 using StockQuoteChat.Bot.Services.Interfaces;
-using WorkerService1;
+using StockQuoteChat.Bot;
 
 IHost host = Host.CreateDefaultBuilder(args)
     .ConfigureServices(services =>
